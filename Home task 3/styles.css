@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	background: url(../img/main-bg.jpg);
+	height: 100vh;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.banner__info{
+	width: 30%;
+	height: 300px;
+	margin: auto;
+}
+.banner__info>div{
+	color: white;
+	margin: 25px 0;
+}
+.banner__title{
+	font-size: 23px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.banner__text{
+	font-size: 16px;
+	text-align: center;
+}
+.banner__btn{
+	display: block;
+	margin: 25px 0;
+	font-size: 16px;
+	background: rgb(33, 29, 29);
+	border: none;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	margin: auto;
+}
+.banner__btn a{
+	color: white;
+	text-decoration: none;
+}
