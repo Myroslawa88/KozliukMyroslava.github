@@ -1,0 +1,87 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	background: url('main-bg.jpg');
+	height: 100vh;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Dancing Script', cursive;
+	position: relative;
+}
+.banner__info{
+	width: 35%;
+	height: 300px;
+	margin-right: 25px;
+	margin-top: 160px;
+}
+.banner__info>div{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin: 10px 0;
+	padding: 15px 15px;
+}
+.banner__title{
+	font-size: 30px;
+}
+.banner__subtitle{
+	font-size: 22px;
+}
+.banner__text{
+	font-size: 17px;
+}
+.banner__btn{
+	display: block;
+	margin: 20px 0;
+	background: green;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.banner__btn a{
+	color: white;
+	text-decoration: none;
+}
+.dots{
+	width: 160px;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	align-items: center;
+	height: 50px;
+}
+.dots__items{
+	height: 25px;
+	width: 25px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+}
+.switcher{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	width: 110px;
+	font-size: 50px;
+	text-align: center;
+	align-items: flex-end;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+}
+.switcher__items{
+	height: 50px;
+	width: 50px;
+	background: rgba(0, 0, 0, .5);
+	font-family: 'Raleway', sans-serif;
+}
+.fa-twitter, .fa-share{
+	color: rgb(95, 186, 216);
+}
