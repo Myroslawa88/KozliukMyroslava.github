@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+}
+.banner {
+	background: url('../img/Train.jpg');
+	background-size: 100% 150%;
+	height: 65%;
+	width: 100%;
+	background-position: center;
+	padding-top: 55px;
+}
+h1 {
+	color: rgb(19, 19, 19);
+	font-size: 60px;
+	margin-bottom: 10px;
+	font-family: "Nothing You Could Do", cursive;
+}
+.banner__title {
+	background-color: rgba(191, 187, 187, 0.6);
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 5px;
+}
+.banner__subtitle {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	height: 40vh;
+	margin: auto;
+	align-items: center;
+}
+.banner__item {
+	background-color: rgba(66, 62, 62, 0.6);
+	width: 30%;
+	height: 30vh;
+	margin: auto;
+	position: relative;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px rgb(35, 33, 33);
+}
+.banner__item_subtitle {
+	color: rgb(218, 218, 218);
+	font-size: 18px;
+	margin: 40px 25px 25px 25px;
+	text-align: end;
+}
+h3 {
+	font-family: "Nothing You Could Do", cursive;
+	font-size: 20px;
+	margin-right: 14px;
+	text-transform: uppercase;
+}
+.banner__text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 10px;
+	color: white;
+	text-align: justify;
+	margin: 10px 20px 0 20px;
+	line-height: 1.5;
+}
+.footer {
+	background-color: white;
+	display: flex;
+}
+.footer_item1 {
+	width: 50%;
+	padding: 0 0 0 50px;
+}
+.footer_item_title {
+	margin: 50px 20px 30px 220px;
+	width: 35%;
+}
+h2 {
+	font-family: "Nothing You Could Do", cursive;
+	font-size: 20px;
+	margin-right: 14px;
+	text-transform: uppercase;
+}
+.footer__text {
+	width: 70%;
+	margin: 5px 5px 5px 220px;
+}
+.footer_item2 {
+	width: 50%;
+	padding: 0 0 0 50px;
+}
+.footer_social__title {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 50px 20px 30px 240px;
+	width: 35%;
+	font-size: 17px;
+}
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+.footer_social__link {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 50%;
+	margin: 5px 5px 5px 220px;
+	line-height: 3;
+}
+a {
+	color: rgb(41, 41, 41);
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}

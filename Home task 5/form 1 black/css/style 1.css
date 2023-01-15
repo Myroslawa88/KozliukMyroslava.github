@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: rgb(17, 10, 10);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 550px;
+	height: 420px;
+	margin: auto;
+	background: rgb(17, 16, 16);
+}
+.form__header {
+	display: flex;
+	height: 40px;
+	background: rgb(56, 48, 48);
+	align-items: center;
+}
+.form__header h3 {
+	margin: 0 15px;
+	font-family: 'Heebo', sans-serif;
+	color: white;
+	text-transform: uppercase;
+}
+.form__item {
+	display: flex;
+	margin: 20px 120px 20px 70px;
+	justify-content: space-between;
+}
+.form__item input[type="text"] {
+	width: 250px;
+	height: 35px;
+	background: rgb(56, 48, 48);
+	border: none;
+	margin: 0 20px 0 15px;
+}
+.form__item input[type="text1"] {
+	width: 350px;
+	background: rgb(56, 48, 48);
+	border: none;
+	margin: 0 20px 0 25px;
+}
+.form__item .form__textarea {
+	height: 130px;
+}
+.form__item .form__itemText {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.form__item center {
+	text-align: left;
+}
+.form__item button {
+	background: red;
+	width: 110px;
+	height: 30px;
+	border-radius: 1px/1px;
+	padding: 5px;
+	margin: 0 230px;
+	margin-right: auto;
+	border: none;
+}
+.form__item span {
+	color: white;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}

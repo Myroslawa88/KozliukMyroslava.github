@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: rgb(17, 10, 10);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 380px;
+	margin: 0 auto;
+	background-color: white;
+	border: 30px solid transparent;
+	border-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) 20% / 1 / 0 stretch;
+}
+.form__header {
+	display: flex;
+	height: 60px;
+	background: lightgrey;
+	align-items: center;
+}
+.form__header h1 {
+	margin: 0 30px;
+	color: rgb(51, 45, 45);
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+}
+.form__item {
+	display: flex;
+	margin: 30px 0 5px 30px;
+	justify-content: space-between;
+}
+.form__itemText {
+	padding-left: 0px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	margin: 5px 0;
+}
+.form__item input[type="text"] {
+	height: 35px;
+	width: 170px;
+	padding-left: 15px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	border: 2px solid lightgrey;
+	margin: 0 30px 0 30px;
+}
+.form__item center {
+	text-align: left;
+}
+.form__item span {
+
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+.form__item .form__itemText1 {
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(67, 174, 193);
+	text-decoration: underline;
+	margin: 0 100px;
+}
+.form__item .form__itemText2 {
+	margin: 5px 25px 5px 5px;
+}
+.form__footer {
+	height: 60px;
+	background: lightgrey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form__footer>input {
+	border: none;
+	background: rgb(67, 174, 193);
+	color: white;
+	margin: 0 5px;
+	cursor: pointer;
+	padding: 5px 5px;
+	width: 80px;
+	height: 35px;
+	font-size: 16px;
+}
+.form__item ::placeholder {
+	font-family: "FontAwesome";
+	position: absolute;
+	font-size: 10px;
+	padding: 12px 0 0 145px;
+	color: lightgrey;
+	display: flex;
+	margin: 25px 0 25px 15px;
+	justify-content: space-between;
+}
+.form__item :checked {
+	border-color: rgb(67, 174, 193);
+	width: 18px;
+	height: 18px;
+	margin: 0 100px;
+}
